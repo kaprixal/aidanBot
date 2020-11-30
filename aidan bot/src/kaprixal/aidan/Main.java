@@ -12,7 +12,7 @@ public class Main{
 	public static String prefix = "-";
 	
 	public static void main (String[] args) throws LoginException {
-		jda = JDABuilder.createDefault("Nzc1NTg1MzM3NDE4MzE3ODY0.X6oeIg.Z8NxdzuoklbFGzJRwf7ndKazcSQ").build();
+		jda = JDABuilder.createDefault("token").build();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.getPresence().setActivity(Activity.playing("with aidan's mom"));
 		
